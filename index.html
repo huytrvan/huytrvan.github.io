@@ -1,92 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <!-- Header -->
-    <header id="header--default">
-        <!-- website logo -->
-        <div id="logo--default">
-            <a href="" title="Go to Home">
-                <img src="images/beemo-robotics-logo.svg" alt="Beemo Robotics" height="75" width="75" id="logo">
-            </a>
-        </div>
-        <!-- Hamburger button, hide on pc -->
-        <!-- <div id="menu">
-        
-            <div id="menu-btn">
-                <span id="menu-span-1" class="menu-span"></span>
-                <span id="menu-span-2" class="menu-span"></span>
-                <span id="menu-span-3" class="menu-span"></span>
+---
+layout: default
+title: Beemo Robotics
+---
+<article id="content">
+    <h2 id="content__brand" class="content__header"><img src="images/beemo-robotics-logo-dark.svg" alt="Beemo Robotics"
+            height="75" width="75" id="brand"> Beemo Robotics</h2>
+    <div class="content__wrapper">
+        <h2 class="content__header">Raison d'être</h2>
+        <p class="content__paragraph">
+            It is predicted that remote work will become increasingly important in the coming decades, based on <a
+                href="https://www.forbes.com/sites/bryanrobinson/2022/02/01/remote-work-is-here-to-stay-and-will-increase-into-2023-experts-say/?sh=5993a39420a6"
+                class="link--text" rel="nofollow">the trends of companies and employees in the last 3 years</a>.
+            Unfortunately, the benefits of remote work, as of now, could only be applied to mostly white-collar jobs.
+        </p>
+        <p class="content__paragraph">This means certain mission-critical professions that need physical presence such
+            as
+            on-site engineers and medical staffs are lacking the ability to work remotely. Sometimes, this could expose
+            them
+            to potential health risks, an example is <a
+                href="https://apps.who.int/iris/bitstream/handle/10665/345300/WHO-HWF-WorkingPaper-2021.1-eng.pdf"
+                class="link--text" rel="nofollow">the case for medical professions during the COVID-19 pandemic
+                globally</a>.</p>
+        <p class="content__paragraph">
+            At Beemo Robotics, we aim to close this gap by providing humanoid remote-work robots to serve these
+            particular
+            usecases. We believe it would greatly improve safety for employees and increase flexibility as well
+            convenience
+            for companies due to the fact that jobs are
+            not bounded
+            by geography.
+        </p>
+    </div>
+    <div class="content__wrapper">
+        <h2 class="content__header">Our mission</h2>
+        <p class="content__paragraph">
+            To make the safest, most reliable and beneficial automation technologies; and to make them accessible
+            for mankind.
+        </p>
+    </div>
+    <div class="content__wrapper">
+        <h2 class="content__header">Do you have questions?</h2>
+        <p class="content__paragraph">We are currently focusing on R&D but you can reach us anytime by email
+            <img src="images/icon-email.svg" alt="email" class="icon--default">:
+            <a href="email:contact@beemorobotics.com" class="link--default">
+                contact@beemorobotics.com</a> and we will respond to you as soon as we can ;).
+        </p>
+        <p class="content__paragraph">Alternatively, you can check the progress on our social accounts:</p>
+        <div id="content--social__wrapper">
+            <div class="link--social__wrapper">
+                <img src="images/icon-youtube.svg" alt="Youtube" class="icon--default">
+                <a href="https://www.youtube.com/channel/UC-lHJZR3GqxsqLF5fvF_Pnw" target="_blank"
+                    title="Beemo Robotics Youtube" class="link--default">
+                    <span>BeemoRobotics</span>
+                </a>
             </div>
-        </div> -->
-    </header>
-    <!-- Body -->
-    <section id="featured">
-        <h1 id="featured__txt">Reimagine remote physical work with robots</h1>
-        <div id="featured__txt-backdrop"></div>
-        <img src="images/human-and-robotic-hand.webp" alt="Human integration with robot" id="featured__img">
-    </section>
-    <article id="content">
-        <h2 id="content__brand" class="content__header"><img src="images/beemo-robotics-logo-dark.svg" alt="Beemo Robotics" height="75" width="75" id="brand"> Beemo Robotics</h2>
-        <div class="content__wrapper">
-            <h2 class="content__header">Raison d'être</h2>
-            <p class="content__paragraph">
-                It is predicted that remote work will become increasingly important in the coming decades, based on <a href="https://www.forbes.com/sites/bryanrobinson/2022/02/01/remote-work-is-here-to-stay-and-will-increase-into-2023-experts-say/?sh=5993a39420a6" class="link--text" rel="nofollow">the trends of companies and employees in the last 3 years</a>. Unfortunately, the benefits of remote work, as of now, could only be applied to mostly white-collar jobs.</p>  
-            <p class="content__paragraph">This means certain mission-critical professions that need physical presence such as
-            on-site engineers and medical staffs are lacking the ability to work remotely. Sometimes, this could expose them to potential health risks, an example is <a href="https://apps.who.int/iris/bitstream/handle/10665/345300/WHO-HWF-WorkingPaper-2021.1-eng.pdf" class="link--text" rel="nofollow">the case for medical professions during the COVID-19 pandemic globally</a>.</p> 
-            <p class="content__paragraph">
-                At Beemo Robotics, we aim to close this gap by providing humanoid remote-work robots to serve these
-                particular
-                usecases. We believe it would greatly improve safety for employees and increase flexibility as well convenience for companies due to the fact that jobs are
-                not bounded
-                by geography.
-            </p>
-        </div>
-        <div class="content__wrapper">
-            <h2 class="content__header">Our mission</h2>
-            <p class="content__paragraph">
-                To make the safest, most reliable and beneficial automation technologies; and to make them accessible
-                for mankind.
-            </p>
-        </div>
-        <div class="content__wrapper">
-            <h2 class="content__header">Do you have questions?</h2>
-            <p class="content__paragraph">We are currently focusing on R&D but you can reach us anytime by email
-                <img src="images/icon-email.svg" alt="email" class="icon--default">:
-                <a href="email:contact@beemorobotics.com" class="link--default">
-                    contact@beemorobotics.com</a> and we will respond to you as soon as we can ;).
-            </p>
-            <p class="content__paragraph">Alternatively, you can check the progress on our social accounts:</p>
-            <div id="content--social__wrapper">
-                <div class="link--social__wrapper">
-                    <img src="images/icon-youtube.svg" alt="Youtube" class="icon--default">
-                    <a href="https://www.youtube.com/channel/UC-lHJZR3GqxsqLF5fvF_Pnw" target="_blank"
-                        title="Beemo Robotics Youtube" class="link--default">
-                        <span>BeemoRobotics</span>
-                    </a>
-                </div>
-                <div class="link--social__wrapper">
-                    <img src="images/icon-twitter.svg" alt="Twitter" class="icon--default">
-                    <a href="https://twitter.com/BeemoRobotics" target="_blank" title="BeemoRobotics Twitter" class="link--default ">
-                        <span>@BeemoRobotics</span>
-                    </a>
-                </div>
-                
+            <div class="link--social__wrapper">
+                <img src="images/icon-twitter.svg" alt="Twitter" class="icon--default">
+                <a href="https://twitter.com/BeemoRobotics" target="_blank" title="BeemoRobotics Twitter"
+                    class="link--default ">
+                    <span>@BeemoRobotics</span>
+                </a>
             </div>
+
         </div>
-    </article>
-    <!-- Footer -->
-    <footer id="default-footer">
-        Copyright &copy; <span id="current-year"></span> Beemo Robotics
-    </footer>
-</body>
-<script src="scripts.js"></script>
-</html>
+    </div>
+</article>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header--default">
+        <!-- website logo -->
+        <div id="logo--default">
+            <a href="" title="Go to Home">
+                <img src="images/beemo-robotics-logo.svg" alt="Beemo Robotics" height="75" width="75" id="logo">
+            </a>
+        </div>
+        <!-- Hamburger button, hide on pc -->
+        <!-- <div id="menu">
+        
+            <div id="menu-btn">
+                <span id="menu-span-1" class="menu-span"></span>
+                <span id="menu-span-2" class="menu-span"></span>
+                <span id="menu-span-3" class="menu-span"></span>
+            </div>
+        </div> -->
+    </header>
+    <!-- Body -->
+    <section id="featured">
+        <h1 id="featured__txt">Reimagine remote physical work with robots</h1>
+        <div id="featured__txt-backdrop"></div>
+        <img src="images/human-and-robotic-hand.webp" alt="Human integration with robot" id="featured__img">
+    </section>
+    {{ content }}
+    <!-- Footer -->
+    <footer id="default-footer">
+        Copyright &copy; <span id="current-year"></span> Beemo Robotics
+    </footer>
+</body>
+<script src="../assets/js/scripts.js"></script>
+
+</html>

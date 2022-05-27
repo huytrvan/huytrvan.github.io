@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+#F9FAFB
+ <g>
+  <title>Beemo Robotics</title>
+  <rect rx="2" id="svg_3" height="176" width="176" y="60.74889" x="98.3575"  fill="#1F2937"/>
+  <ellipse ry="88" rx="88" id="svg_5" cy="148.7506" cx="274.302"  fill="#1F2937"/>
+  <path id="svg_24" d="m100.46276,63.80152c0,-1.08676 0.70668,-2 1.54762,-2l171.01207,0c0.84094,0 1.54762,0.91324 1.54762,2l0,170c0,1.08676 -0.70668,2 -1.54762,2l-171.01207,0c-0.84094,0 -1.54762,-0.91324 -1.54762,-2l0,-170z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+  <path id="svg_30" d="m249.30199,61.3308l24,0l0,4.8l-24,0l0,-4.8z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+  <path id="svg_31" d="m249.30199,231.50871l24,0l0,4.8l-24,0l0,-4.8z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+  <rect rx="2" id="svg_32" height="176" width="225" y="260.7748" x="98.13262"  fill="#1F2937"/>
+  <ellipse ry="88" rx="88" id="svg_33" cy="348.77651" cx="324.302"  fill="#1F2937"/>
+  <path id="svg_34" d="m101.34031,263.82743c0,-1.08676 0.91324,-2 2,-2l221,0c1.08676,0 2,0.91324 2,2l0,170c0,1.08676 -0.91324,2 -2,2l-221,0c-1.08676,0 -2,-0.91324 -2,-2l0,-170z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+  <path id="svg_35" d="m299.302,261.35671l24,0l0,4.8l-24,0l0,-4.8z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+  <path id="svg_36" d="m299.302,431.53462l24,0l0,4.8l-24,0l0,-4.8z" opacity="1" stroke-width="0"  fill="#1F2937"/>
+ </g>
+</svg>
